@@ -8,9 +8,13 @@ Digital Design &amp; Verification Engineer · MSc Computer Engineering (Embedded
 
 ## About
 
-I work on RTL implementation of arithmetic and processor datapaths, functional verification in SystemVerilog/UVM, and taking designs through synthesis, static timing and place-and-route while measuring area, timing and power. My method is systematic: build several versions of a design, measure each under the same constraints, and keep what the data supports.
+I work on RTL implementation of arithmetic and processor datapaths, functional verification in SystemVerilog/UVM, and taking designs through synthesis, static timing and place-and-route while measuring area, timing and power. My approach is systematic: I build several optimized versions of a design, measure each under the same constraints, and compare them by exploring the design space and plotting the Pareto front.
 
-Based in Turin, Italy. MSc in Computer Engineering, Embedded Systems track (2025–2027), after a BSc in Electronics and Communications Engineering, both at Politecnico di Torino.
+On the verification side I write SystemVerilog/UVM testbenches with reference-model scoreboards, functional coverage and RAL, and reuse them on the synthesized netlist. Code coverage on the windowed register file is what exposed a bug in its window-overflow logic.
+
+I also write embedded firmware: bare-metal STM32 code at register level without HAL, a four-node wireless sensor network, and FPGA logic that sends commands to the microcontroller.
+
+I'm based in Turin and looking for internships and junior positions in FPGA and ASIC design and verification, available from February 2027.
 
 ## Featured projects
 
